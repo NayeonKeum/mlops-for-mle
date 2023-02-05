@@ -13,6 +13,9 @@ from sklearn.datasets import load_breast_cancer
 # PSQLUSER = config['DEFAULT']['PSQLUSER']
 # PSQLPWD = config['DEFAULT']['PSQLPWD']
 # PSQLPORT = int(config['DEFAULT']['PSQLPORT'])
+os.environ['PSQL_USER'] = "nkeum"
+os.environ['PSQL_PWD'] = "qwer123!"
+os.environ['PSQL_PORT'] = "5432"
 
 
 def get_data():
